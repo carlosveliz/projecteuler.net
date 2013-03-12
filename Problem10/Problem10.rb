@@ -7,7 +7,6 @@ sum = 0
 puts "Calculando..."
 while prime < limit do
 	if isPrime(prime)
-		puts prime
 		sum = sum + prime
 	end
 	prime = prime + 1
